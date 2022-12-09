@@ -1,0 +1,128 @@
+.card-img-top{
+  width:100%;
+  height:100px;
+}
+.card-footer{
+  height: 75px;
+  padding: 5px;
+  text-align: center;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  height: 100px;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+
+
+}
+/* .card-footer > a{
+  position: relative;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+} */
+.card-item{
+  height: 200px;
+
+}
+.card-item > .card-footer{
+  cursor: pointer;
+}
+.card-title{
+  position: relative;
+  height: 70%;
+}
+.card-footer{
+  position: relative;
+
+  height: 30%;
+  background: none !important;
+  border-top:none !important ;
+}
+.vertical-center {
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  text-align: center;
+  width: 100%;
+  left: 0;
+  right:0;
+}
+.card-img-top{
+  height: 100%;
+}
+.file-item-icon {
+  font-size: 3.25rem;
+}
+.file-name{
+  padding:5px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  height: 100%;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.menu-nav {
+  display: flex;
+  justify-content: space-between;
+}
+.menu-item {
+  color: #FCC;
+  padding: 3px;
+}
+.three-dots:after {
+  cursor: pointer;
+  color: #444;
+  content: '\2807';
+  font-size: 20px;
+  padding: 0 5px;
+}
+.dropdown-toggle::after{
+  display: none !important;
+}
+.dropdown-item{
+  text-align: left;
+  /* padding:5px 0px; */
+  border-bottom: solid 1px #f2f2f2;
+  padding: 10px 10px;
+}
+.hidden{
+  display: none;
+}
+.w-100px{
+  width: 50px;
+  height: 50px;
+}
+.table-foldersystem > tbody > tr{
+  line-height: 25px;
+  min-height: 25px;
+  height: 25px;
+}
+.font-1{
+  font-size: 1rem !important;
+}
+.my-custom-scrollbar {
+position: relative;
+height: 60vh;
+overflow: auto;
+}
+.table-wrapper-scroll-y {
+display: block;
+}
+.dropdown-card-action{
+  z-index: 9;
+}
+.three-dots:hover{
+  background-color: #f1f1f182;
+  border-radius: 4px;
+}
+.cursor-pointer{
+  cursor: pointer;
+}
+.allowed-img{
+      width:100%;
+      border-radius: 50%;
+}
